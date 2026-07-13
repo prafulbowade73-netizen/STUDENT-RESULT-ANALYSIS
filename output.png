@@ -1,0 +1,100 @@
+# output
+
+
+show_id     type             title     director country  release_year   rating
+0      s1    Movie  The Great Escape   John Smith   India          2022    PG-13
+1      s2  TV Show     Science World  Alice Brown     USA          2021    TV-14
+2      s3    Movie       Action Hero    Raj Kumar   India          2020  U/A 13+
+3      s4    Movie        Love Story    David Lee      UK          2019       PG
+4      s5  TV Show     Space Mission   Emma White  Canada          2023    TV-MA
+  show_id     type           title     director    country  release_year rating
+5      s6    Movie    Comedy Night  Amit Sharma      India          2021      U
+6      s7  TV Show     Wild Nature  Sarah Green  Australia          2022  TV-PG
+7      s8    Movie    Horror House  James Clark        USA          2018      R
+8      s9    Movie     Future Tech  Rohan Patel      India          2023  PG-13
+9     s10  TV Show  Cooking Master  Sophia King     France          2020      G
+       release_year
+count      10.00000
+mean     2020.90000
+std         1.66333
+min      2018.00000
+25%      2020.00000
+50%      2021.00000
+75%      2022.00000
+max      2023.00000
+<class 'pandas.DataFrame'>
+RangeIndex: 10 entries, 0 to 9
+Data columns (total 7 columns):
+ #   Column        Non-Null Count  Dtype
+---  ------        --------------  -----
+ 0   show_id       10 non-null     str  
+ 1   type          10 non-null     str  
+ 2   title         10 non-null     str  
+ 3   director      10 non-null     str  
+ 4   country       10 non-null     str  
+ 5   release_year  10 non-null     int64
+ 6   rating        10 non-null     str  
+dtypes: int64(1), str(6)
+memory usage: 692.0 bytes
+None
+show_id         0
+type            0
+title           0
+director        0
+country         0
+release_year    0
+rating          0
+dtype: int64
+type
+Movie      6
+TV Show    4
+Name: count, dtype: int64
+country
+India        4
+USA          2
+UK           1
+Canada       1
+Australia    1
+France       1
+Name: count, dtype: int64
+rating
+PG-13      2
+TV-14      1
+U/A 13+    1
+PG         1
+TV-MA      1
+U          1
+TV-PG      1
+R          1
+G          1
+Name: count, dtype: int64
+release_year
+2018    1
+2019    1
+2020    2
+2021    2
+2022    2
+2023    2
+Name: count, dtype: int64
+director
+John Smith     1
+Alice Brown    1
+Raj Kumar      1
+David Lee      1
+Emma White     1
+Amit Sharma    1
+Sarah Green    1
+James Clark    1
+Rohan Patel    1
+Sophia King    1
+Name: count, dtype: int64
+Empty DataFrame
+Columns: [show_id, type, title, director, country, release_year, rating]
+Index: []
+Empty DataFrame
+Columns: [show_id, type, title, director, country, release_year, rating]
+Index: []
+  show_id     type          title     director country  release_year rating
+4      s5  TV Show  Space Mission   Emma White  Canada          2023  TV-MA
+8      s9    Movie    Future Tech  Rohan Patel   India          2023  PG-13
+PS C:\Users\admin\OneDrive\Desktop> 
